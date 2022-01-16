@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Poppins;
+  transition: all 0.3s !important;
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  scrollbar-width: thin;
+  scrollbar-color: #5ea4ff transparent;
+}
+
+/* Scrollbar Design  */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5ea4ff !important;
+  border-radius: 20px;
+  border: 3px solid transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+/* For Products Slider  */
+
+.scrollHandle::-webkit-scrollbar {
+  height: 12px;
+}
+
+.scrollHandle::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollHandle::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 20px;
+}
+.scrollHandle:hover::-webkit-scrollbar-thumb {
+  background: #5ea4ff !important;
+}
+
+.scrollHandle {
+  transition: all 0.4s !important;
+  scroll-behavior: smooth !important;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+}
+
+.scrollHandle:hover {
+  scrollbar-color: #5ea4ff transparent;
+}
+
+.SliderProduct {
+  margin-left: 10px;
+}
+
+.SliderProduct:nth-of-type(1) {
+  margin-left: 0 !important;
+}
