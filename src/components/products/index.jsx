@@ -63,6 +63,7 @@ const Products = () => {
   if (!products || products?.length < 1) {
     return <div>Not Found!</div>;
   }
+
   return (
     <div className="flex justify-between">
       <div className="w-96 h-minus_header_sm_dbl flex flex-col space-y-4 bg-gray-100 overflow-y-auto">
@@ -156,11 +157,11 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-minus_header_sm_dbl overflow-y-auto grid grid-cols-12 grid-rows-auto bg-gray-200 gap-5 p-5">
+      <div className="w-full h-minus_header_sm_dbl overflow-y-auto flex flex-wrap justify-center bg-gray-200 gap-5 p-5">
         {showProducts?.map((p) => (
           <div
             key={p._id}
-            className="col-span-3 row-span-auto bg-white p-2 flex flex-col justify-evenly space-y-2"
+            className="w-40 row-span-auto bg-white p-2 flex flex-col justify-evenly space-y-2"
           >
             <Link to={`/${p?.name.split(" ").join("-")}/${p?._id}`}>
               <img className="w-12 mx-auto" src={p.images[0].image} alt="" />

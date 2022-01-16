@@ -2,7 +2,7 @@ import React from "react";
 
 const ScreenLoading = () => {
   return (
-    <div className="w-full z-50 h-full flex items-center justify-center">
+    <div className="w-full z-50 h-96 flex items-center justify-center">
       <div
         className="w-10 h-10 rounded-full border-4 border-white animate-spin"
         style={{borderRightColor: "#999"}}
