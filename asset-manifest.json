@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/stackshop/static/css/main.8f7aa82c.chunk.css",
-    "main.js": "/stackshop/static/js/main.f8cb5df0.chunk.js",
-    "main.js.map": "/stackshop/static/js/main.f8cb5df0.chunk.js.map",
+    "main.js": "/stackshop/static/js/main.bc545ef2.chunk.js",
+    "main.js.map": "/stackshop/static/js/main.bc545ef2.chunk.js.map",
     "runtime-main.js": "/stackshop/static/js/runtime-main.2d334eca.js",
     "runtime-main.js.map": "/stackshop/static/js/runtime-main.2d334eca.js.map",
-    "static/js/2.ebe5de9b.chunk.js": "/stackshop/static/js/2.ebe5de9b.chunk.js",
-    "static/js/2.ebe5de9b.chunk.js.map": "/stackshop/static/js/2.ebe5de9b.chunk.js.map",
+    "static/js/2.788a5d94.chunk.js": "/stackshop/static/js/2.788a5d94.chunk.js",
+    "static/js/2.788a5d94.chunk.js.map": "/stackshop/static/js/2.788a5d94.chunk.js.map",
     "static/js/3.2b0f0beb.chunk.js": "/stackshop/static/js/3.2b0f0beb.chunk.js",
     "static/js/3.2b0f0beb.chunk.js.map": "/stackshop/static/js/3.2b0f0beb.chunk.js.map",
     "index.html": "/stackshop/index.html",
     "static/css/main.8f7aa82c.chunk.css.map": "/stackshop/static/css/main.8f7aa82c.chunk.css.map",
-    "static/js/2.ebe5de9b.chunk.js.LICENSE.txt": "/stackshop/static/js/2.ebe5de9b.chunk.js.LICENSE.txt"
+    "static/js/2.788a5d94.chunk.js.LICENSE.txt": "/stackshop/static/js/2.788a5d94.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2d334eca.js",
-    "static/js/2.ebe5de9b.chunk.js",
+    "static/js/2.788a5d94.chunk.js",
     "static/css/main.8f7aa82c.chunk.css",
-    "static/js/main.f8cb5df0.chunk.js"
+    "static/js/main.bc545ef2.chunk.js"
   ]
 }
